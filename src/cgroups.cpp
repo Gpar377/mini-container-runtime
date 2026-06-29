@@ -4,6 +4,8 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <fstream>
+#include <cstring>
+#include <cerrno>
 #include <stdexcept>
 
 // cgroups v2 unified hierarchy base path
